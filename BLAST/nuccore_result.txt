@@ -1,0 +1,16 @@
+
+1. Leguminivora glycinivorella general odorant-binding protein 1 (GOBP1) mRNA, complete cds
+920 bp linear mRNA 
+KT963078.1 GI:1004642660
+
+2. Cydia pomonella general odorant binding protein 1 (GOBP1) mRNA, complete cds
+714 bp linear mRNA 
+JN701809.1 GI:400115844
+
+3. Grapholita molesta general odorant binding protein 1 (GOBP1) mRNA, complete cds
+1,090 bp linear mRNA 
+JN857939.1 GI:383289366
+
+4. Lobesia botrana odorant-binding protein GOBP1 mRNA, complete cds
+486 bp linear mRNA 
+MG788228.1 GI:1433048394
