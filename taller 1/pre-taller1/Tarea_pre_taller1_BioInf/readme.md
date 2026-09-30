@@ -19,7 +19,7 @@ Se realizó el alineamiento múltiple de las secuencias de aminoácidos de AOX1 
 
 Se construyó el árbol filogenético circular utilizando el método de Neighbor-Joining (NJ) a partir del alineamiento múltiple de todas las isoformas de la enzima aldehído oxidasa (AOX) y secuencias homólogas de referencia.
 
-![Árbol Filogenético AOX](arbol_filogenetico_AOX.png)
+![Árbol Filogenético AOX](arbol_filogenetico_AOX.png.png.png)
 
 ### Resultados y Discusión:
 
@@ -63,4 +63,3 @@ A lo largo del taller se emplearon diversas herramientas computacionales y bioin
 
 * **Git & GitHub:**
   * Uso: Control de versiones y publicación en repositorio remoto público para la entrega y revisión del taller.
-  
