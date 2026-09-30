@@ -6,7 +6,6 @@ Se realizó el alineamiento múltiple de las secuencias de aminoácidos de AOX1 
 
 ### Resultados y Análisis:
 
-
 * Región 1 (10 aa - Bloque 3):** `CRCTGYRPIA` — Presenta 10 asteriscos seguidos (`**********`), constituyendo el tramo de conservación exacta más largo visible en la imagen.
 * Región 2 (Motivo de 7 aa - Bloque 2):** `VNSCLVS` — Presenta 7 asteriscos seguidos (`*******`), 100% idéntico en las cuatro secuencias.
 * Región 3 (Motivo de 6 aa - Bloque 2):** `TQCGYC` — Presenta 6 asteriscos seguidos (`******`).
@@ -28,10 +27,22 @@ Se construyó el árbol filogenético circular utilizando el método de Neighbor
    El clado resaltado en rojo (correspondiente a las secuencias de *Plutella xylostella* / `Px007928`) constituye la rama evolutivamente más distante y basal del árbol. Su extensa longitud de rama confirma que actúa como el grupo externo (*outgroup*) respecto a todo el conjunto de enzimas analizado.
 
 2. **Clado Intermedio (Destacado en VERDE/AMARILLO): 
-   A continuación del grupo externo rojo, se ramifica un clado en verde/amarillo compuesto principalmente por secuencias de Xantina Deshidrogenasa (`XDH`) junto a isoformas divergentes de AOX. Este grupo refleja una etapa evolutiva intermedia en la divergencia de la superfamilia de molibdoenzimas.
+   A continuación del grupo externo rojo, se ramifica un clado en verde/amarillo compuesto principalmente por secuencias de Xantina Deshidrogenasa (`XDH`) junto a isoformas divergentes de AOX.
 
 3. **Clado Principal de AOX (Destacado en AZUL):** 
-   El clado resaltado en **azul** reúne a las isoformas principales de AOX (`AOX1`, `AOX2`, `AOX3`), formando un monofilético fuertemente separado y genéticamente distante del clado basal rojo. Esto demuestra una clara separación funcional y evolutiva entre las isoformas canónicas de AOX y las secuencias basales/XDH.
+   El clado resaltado en **azul** reúne a las isoformas principales de AOX (`AOX1`, `AOX2`, `AOX3`), formando un monofilético fuertemente separado y genéticamente distante del clado basal rojo. 
+
+* como el profesor aviso 3 segundos antes de acabar la clase y me obliga a trabajar durante el almuerzo voy a especificar a continuacion lo que arreglé. En bioinformática, Pxyl es la abreviatura estándar de la especie Plutella xylostella (la polilla de la col), como el profe trabaja con bichitos asumí que las secuencias de aa estaban bien. 
+
+## pregunta 2 arreglada: 
+
+1. voy a traducir los nucleotidos a aminoacidos  hacer todo de nuevo (durante el almuerzo) las pantrucas me supueron mal ahora 
+
+### Resultado del Árbol Filogenético Corregido: 
+![Árbol Filogenético Corregido](AOX_todas_especies_arreglado.dnd.png)
+* Integración de P. xylostella: Al traducir la secuencia a proteína (`translated_AA`), se eliminó el artefacto de distancia y la especie se integró en el clado de las AOX.
+* Verdadero Grupo Externo (Outgroup): El clado compuesto por las enzimas **XDH** (`DpleXDH`, `BmorXDH`, `MrotXDH`, `CcapXDH`, `CvicXDH`) constituye la rama más distante y basal del árbol, confirmando la divergencia funcional entre XDH y las isoformas de AOX.
+
 
 
 ## Pregunta 3: Herramientas bioinformáticas utilizadas y su aplicación
@@ -52,3 +63,4 @@ A lo largo del taller se emplearon diversas herramientas computacionales y bioin
 
 * **Git & GitHub:**
   * Uso: Control de versiones y publicación en repositorio remoto público para la entrega y revisión del taller.
+  
